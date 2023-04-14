@@ -1,7 +1,7 @@
 <template>
   <div class="app" :style="size">
     <div class="rect" :class="drop?'drop':''">
-      <Decorate/>
+      <!-- <Decorate/> -->
       <div class="screen">
         <div class="panel">
           <Matrix :propMatrix="matrix" :cur="cur" :reset="reset" />
