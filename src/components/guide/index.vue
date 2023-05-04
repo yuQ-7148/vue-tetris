@@ -1,4 +1,5 @@
 <template>
+  <!-- 非移动端显示的提示 -->
   <div v-show="!isMobile">
     <div class="guide right">
       <div class="up">
